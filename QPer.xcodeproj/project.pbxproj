@@ -51,6 +51,9 @@
 		2B3DB82C28DD6AAA00E2BFF2 /* QPer */ = {
 			isa = PBXGroup;
 			children = (
+				2B3DB83D28DD711100E2BFF2 /* Model */,
+				2B3DB83B28DD711100E2BFF2 /* View */,
+				2B3DB83C28DD711100E2BFF2 /* ViewModel */,
 				2B3DB82D28DD6AAA00E2BFF2 /* QPerApp.swift */,
 				2B3DB82F28DD6AAA00E2BFF2 /* ContentView.swift */,
 				2B3DB83128DD6AAB00E2BFF2 /* Assets.xcassets */,
@@ -65,6 +68,27 @@
 				2B3DB83428DD6AAB00E2BFF2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B3DB83B28DD711100E2BFF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B3DB83C28DD711100E2BFF2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2B3DB83D28DD711100E2BFF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
