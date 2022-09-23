@@ -39,13 +39,15 @@ struct PasswordListView: View {
             Spacer()
             
             //BUTTON ADD NEW
-            Button("Add New Password") {
+            Button{
                 //action button
-            }.foregroundColor(Color.white)
-                .frame(maxWidth: .infinity, maxHeight: 60)
-                .background(Color("PrimaryColor"))
-                .cornerRadius(15)
-                .padding(.bottom)
+            }label: {
+                Text("Add New Password")
+                    .foregroundColor(Color.white)
+                    .frame(maxWidth: .infinity, maxHeight: 60)
+                    .background(Color("PrimaryColor"))
+                    .cornerRadius(15)
+            }.padding(.bottom)
                 .padding(.leading)
                 .padding(.trailing)
         }
