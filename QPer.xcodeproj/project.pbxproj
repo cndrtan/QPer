@@ -11,6 +11,8 @@
 		2B3DB83228DD6AAB00E2BFF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3DB83128DD6AAB00E2BFF2 /* Assets.xcassets */; };
 		2B3DB83528DD6AAB00E2BFF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3DB83428DD6AAB00E2BFF2 /* Preview Assets.xcassets */; };
 		2B3DB83F28DD871000E2BFF2 /* PasswordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3DB83E28DD871000E2BFF2 /* PasswordListView.swift */; };
+		2B3DB84228DD890100E2BFF2 /* CoreDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3DB84128DD890100E2BFF2 /* CoreDataServices.swift */; };
+		2B3DB84428DD892300E2BFF2 /* PasswordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3DB84328DD892300E2BFF2 /* PasswordList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2B3DB83128DD6AAB00E2BFF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B3DB83428DD6AAB00E2BFF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B3DB83E28DD871000E2BFF2 /* PasswordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordListView.swift; sourceTree = "<group>"; };
+		2B3DB84128DD890100E2BFF2 /* CoreDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataServices.swift; sourceTree = "<group>"; };
+		2B3DB84328DD892300E2BFF2 /* PasswordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		2B3DB82C28DD6AAA00E2BFF2 /* QPer */ = {
 			isa = PBXGroup;
 			children = (
+				2B3DB84028DD88E600E2BFF2 /* Services */,
 				2B3DB83D28DD711100E2BFF2 /* Model */,
 				2B3DB83B28DD711100E2BFF2 /* View */,
 				2B3DB83C28DD711100E2BFF2 /* ViewModel */,
@@ -87,8 +92,17 @@
 		2B3DB83D28DD711100E2BFF2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2B3DB84328DD892300E2BFF2 /* PasswordList.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2B3DB84028DD88E600E2BFF2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2B3DB84128DD890100E2BFF2 /* CoreDataServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3DB84428DD892300E2BFF2 /* PasswordList.swift in Sources */,
+				2B3DB84228DD890100E2BFF2 /* CoreDataServices.swift in Sources */,
 				2B3DB83F28DD871000E2BFF2 /* PasswordListView.swift in Sources */,
 				2B3DB82E28DD6AAA00E2BFF2 /* QPerApp.swift in Sources */,
 			);
