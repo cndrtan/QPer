@@ -13,6 +13,8 @@
 		2B3DB83F28DD871000E2BFF2 /* PasswordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3DB83E28DD871000E2BFF2 /* PasswordListView.swift */; };
 		2B3DB84228DD890100E2BFF2 /* CoreDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3DB84128DD890100E2BFF2 /* CoreDataServices.swift */; };
 		2B3DB84428DD892300E2BFF2 /* PasswordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3DB84328DD892300E2BFF2 /* PasswordList.swift */; };
+		2B3DB84628E2AACD00E2BFF2 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3DB84528E2AACD00E2BFF2 /* CoreDataViewModel.swift */; };
+		2B3DB84928E2ABE700E2BFF2 /* PasswordListContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B3DB84728E2ABE700E2BFF2 /* PasswordListContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		2B3DB83E28DD871000E2BFF2 /* PasswordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordListView.swift; sourceTree = "<group>"; };
 		2B3DB84128DD890100E2BFF2 /* CoreDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataServices.swift; sourceTree = "<group>"; };
 		2B3DB84328DD892300E2BFF2 /* PasswordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordList.swift; sourceTree = "<group>"; };
+		2B3DB84528E2AACD00E2BFF2 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
+		2B3DB84828E2ABE700E2BFF2 /* PasswordListContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordListContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 				2B3DB83B28DD711100E2BFF2 /* View */,
 				2B3DB83C28DD711100E2BFF2 /* ViewModel */,
 				2B3DB82D28DD6AAA00E2BFF2 /* QPerApp.swift */,
+				2B3DB84728E2ABE700E2BFF2 /* PasswordListContainer.xcdatamodeld */,
 				2B3DB83128DD6AAB00E2BFF2 /* Assets.xcassets */,
 				2B3DB83328DD6AAB00E2BFF2 /* Preview Content */,
 			);
@@ -85,6 +90,7 @@
 		2B3DB83C28DD711100E2BFF2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2B3DB84528E2AACD00E2BFF2 /* CoreDataViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -175,9 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3DB84628E2AACD00E2BFF2 /* CoreDataViewModel.swift in Sources */,
 				2B3DB84428DD892300E2BFF2 /* PasswordList.swift in Sources */,
 				2B3DB84228DD890100E2BFF2 /* CoreDataServices.swift in Sources */,
 				2B3DB83F28DD871000E2BFF2 /* PasswordListView.swift in Sources */,
+				2B3DB84928E2ABE700E2BFF2 /* PasswordListContainer.xcdatamodeld in Sources */,
 				2B3DB82E28DD6AAA00E2BFF2 /* QPerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +387,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B3DB84728E2ABE700E2BFF2 /* PasswordListContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B3DB84828E2ABE700E2BFF2 /* PasswordListContainer.xcdatamodel */,
+			);
+			currentVersion = 2B3DB84828E2ABE700E2BFF2 /* PasswordListContainer.xcdatamodel */;
+			path = PasswordListContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2B3DB82228DD6AAA00E2BFF2 /* Project object */;
 }

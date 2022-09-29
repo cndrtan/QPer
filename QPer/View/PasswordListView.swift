@@ -10,6 +10,8 @@ import SwiftUI
 struct PasswordListView: View {
     @State private var searchPass = ""
     
+    @StateObject var vm = CoreDataViewModel()
+    
     var body: some View {
         VStack {
             HStack {
@@ -37,6 +39,12 @@ struct PasswordListView: View {
             }.foregroundColor(Color("PrimaryColor")).font(.title2).fontWeight(.semibold).padding(.leading).padding(.top)
             
             Spacer()
+            
+            List{
+                ForEach(vm.savedEntities){ entity in
+                    Text(entity.title ?? "NO NAME")
+                }.onDelete(perform: vm.deletePasswordList)
+            }
             
             //BUTTON ADD NEW
             Button{
